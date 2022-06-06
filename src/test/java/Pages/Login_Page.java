@@ -15,12 +15,6 @@ public class Login_Page {
         PageFactory.initElements(driver,this);
     }
 
-//    @FindBy(id = "Email")
-//    WebElement emailPF;
-//
-//    @FindBy(id = "Password")
-//    WebElement passwordPF;
-
     public WebElement emailE()
     {
         return driver.findElement(By.id("Email"));
@@ -31,10 +25,6 @@ public class Login_Page {
         return driver.findElement(By.id("Password"));
     }
 
-    public WebElement Navigate_to_LoginPage() {
-        return driver.findElement(By.cssSelector("a[class=\"ico-login\"]"));
-    }
-
     public void LoginSteps(String email ,String password)
     {
         emailE().clear();
@@ -42,5 +32,9 @@ public class Login_Page {
 
         emailE().sendKeys( email );
         passwordE().sendKeys( password );
+    }
+
+    public WebElement myAccount() {
+       return driver.findElement(By.cssSelector("a[class=\"ico-account\"]"));
     }
 }
