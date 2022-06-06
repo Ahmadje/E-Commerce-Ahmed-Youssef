@@ -41,4 +41,8 @@ public class Home_Page {
         return driver.findElement(By.cssSelector("button[class=\"button-1 search-box-button\"]"));
     }
 
+    public WebElement slider(String sliderNum){
+        return driver.findElement(By.xpath("(//a[@href=\"http://demo.nopcommerce.com/\"])["+sliderNum+"]"));
+    }
+
 }

@@ -17,7 +17,6 @@ public class D03_ChangeCurrency {
 
     @When("user select “Dollar” from currency dropdown list")
     public void user_select_Dollar() {
-        home = new Home_Page(Hooks.driver);
         home.currency().click();
         home.currencyDollar().click();
     }
