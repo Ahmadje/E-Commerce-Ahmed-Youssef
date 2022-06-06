@@ -33,4 +33,12 @@ public class Home_Page {
         return driver.findElement(By.xpath("//option[@value=\"https://demo.nopcommerce.com/changecurrency/1?returnUrl=%2F\"]"));
     }
 
+    public WebElement searchBar(){
+        return driver.findElement(By.id("small-searchterms"));
+    }
+
+    public WebElement searchButton(){
+        return driver.findElement(By.cssSelector("button[class=\"button-1 search-box-button\"]"));
+    }
+
 }
