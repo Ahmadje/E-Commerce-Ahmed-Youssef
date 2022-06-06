@@ -29,7 +29,7 @@ public class Hooks {
 
     @After
     public static void closeBrowser() throws InterruptedException {
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         driver.quit();
     }
 }

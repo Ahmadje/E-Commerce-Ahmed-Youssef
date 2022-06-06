@@ -1,7 +1,6 @@
+Feature: F02_Login | user should be able to login to the system
 
-Feature: user should be able to login to the system
 
-#1 Test Scenario:
   Scenario: user login with valid data
     When user navigate to login page
     And user enter "Ahmed_Youssef@Live.com" and "P@ssw0rd"

@@ -20,4 +20,17 @@ public class Home_Page {
     public WebElement Navigate_to_RegisterPage() {
         return driver.findElement(By.cssSelector("a[class=\"ico-register\"]"));
     }
+
+    public WebElement currency() {
+        return driver.findElement(By.id("customerCurrency"));
+    }
+
+    public WebElement currencyEuro() {
+        return driver.findElement(By.xpath("//option[@value=\"https://demo.nopcommerce.com/changecurrency/6?returnUrl=%2F\"]"));
+    }
+
+    public WebElement currencyDollar() {
+        return driver.findElement(By.xpath("//option[@value=\"https://demo.nopcommerce.com/changecurrency/1?returnUrl=%2F\"]"));
+    }
+
 }

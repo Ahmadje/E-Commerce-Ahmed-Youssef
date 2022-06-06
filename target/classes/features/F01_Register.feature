@@ -1,7 +1,7 @@
-Feature: user should be able to login to the system
+Feature: F01_Register | user should able to create new account
 
-#1 Test Scenario:
-  Scenario: user login with valid data
+
+  Scenario: user register with valid data
     Given user navigate to register page
     And user choose male or female
     When user enter first name
