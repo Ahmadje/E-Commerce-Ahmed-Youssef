@@ -45,4 +45,20 @@ public class Home_Page {
         return driver.findElement(By.xpath("(//a[@href=\"http://demo.nopcommerce.com/\"])["+sliderNum+"]"));
     }
 
+    public WebElement facebook() {
+        return driver.findElement(By.xpath("//a[@href=\"http://www.facebook.com/nopCommerce\"]"));
+    }
+
+    public WebElement twitter() {
+        return driver.findElement(By.xpath("//a[@href=\"https://twitter.com/nopCommerce\"]"));
+    }
+
+    public WebElement rss() {
+        return driver.findElement(By.xpath("//a[@href=\"/news/rss/1\"]"));
+    }
+
+    public WebElement youtube() {
+        return driver.findElement(By.xpath("//a[@href=\"http://www.youtube.com/user/nopCommerce\"]"));
+    }
+
 }
