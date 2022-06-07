@@ -34,40 +34,23 @@ public class D01_Register {
         register.maleGender().click();
 }
 
-    @And("user enter first name")
+    @And("user enter valid data")
     public void user_enter_first_name(){
         register.firstName().sendKeys("Ahmed");
-    }
 
-    @And("user enter last name")
-    public void user_enter_last_name(){
         register.lastName().sendKeys("Youssef");
-    }
 
-    @And("user enter Date of Birth")
-    public void user_enter_date_of_birth(){
         register.birthDay().sendKeys("21");
         register.birthDay().sendKeys(Keys.ENTER);
-
         register.birthMonth().sendKeys("December");
         register.birthMonth().sendKeys(Keys.ENTER);
-
         register.birthYear().sendKeys("1993");
         register.birthYear().sendKeys(Keys.ENTER);
-    }
 
-    @And("user enter email")
-    public void user_enter_email(){
         register.email().sendKeys("Ahmed_Youssef@Live.com");
-    }
 
-    @And("user enter company name")
-    public void user_enter_company_name(){
         register.companyName().sendKeys("Udacity");
-    }
 
-    @And("user enter password")
-    public void user_enter_password(){
         register.password().sendKeys("P@ssw0rd");
         register.confirmPassword().sendKeys("P@ssw0rd");
     }

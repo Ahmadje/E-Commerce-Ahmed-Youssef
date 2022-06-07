@@ -44,7 +44,6 @@ public class D07_FollowUsStepDef {
         Hooks.driver.close();
 
         Hooks.driver.switchTo().window(Tabs.get(0));
-        System.out.println(Hooks.driver.getCurrentUrl());
     }
 
     @Given("user opens twitter link")

@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class Home_Page {
     WebDriver driver;
 
@@ -61,4 +63,19 @@ public class Home_Page {
         return driver.findElement(By.xpath("//a[@href=\"http://www.youtube.com/user/nopCommerce\"]"));
     }
 
+    public WebElement wishList() {
+        return driver.findElement(By.cssSelector("div[class=\"header-links\"] [href=\"/wishlist\"]"));
+    }
+
+    public List<WebElement> addWishList() {
+        return driver.findElements(By.cssSelector("button[class=\"button-2 add-to-wishlist-button\"]"));
+    }
+
+    public WebElement wishSuccessMsg() {
+        return driver.findElement(By.cssSelector("div[class=\"bar-notification success\"]"));
+    }
+
+    public WebElement closeB() {
+        return driver.findElement(By.cssSelector("span[class=\"close\"]"));
+    }
 }
