@@ -1,82 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="16" time="134">
-<testcase classname="F01_Register | user should able to create new account" name="user register with valid data" time="17.292">
-<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&quot;result&quot;]&quot;}&#10;  (Session info: MicrosoftEdge=102.0.1245.33)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.2.0', revision: '86eb611648'&#10;System info: host: 'DESKTOP-SCP6E2R', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [8d87c306d57205581b493ad8f2d1e055, findElement {using=xpath, value=//div[@class=&quot;result&quot;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 102.0.1245.33, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60763}, msedge: {msedgedriverVersion: 101.0.1210.53 (019dbf6dd738..., userDataDir: C:\Users\Family\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60763/devtoo..., se:cdpVersion: 102.0.1245.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8d87c306d57205581b493ad8f2d1e055" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user navigate to register page........................................passed
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="16" time="125.879">
+<testcase classname="F01_Register | user should able to create new account" name="user register with valid data" time="9.417">
+<system-out><![CDATA[Given user navigate to register page........................................passed
 And user choose male or female..............................................passed
 When user enter valid data..................................................passed
 Then user press on register button..........................................passed
-And user could register successfully........................................failed
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="result"]"}
-  (Session info: MicrosoftEdge=102.0.1245.33)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.2.0', revision: '86eb611648'
-System info: host: 'DESKTOP-SCP6E2R', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8d87c306d57205581b493ad8f2d1e055, findElement {using=xpath, value=//div[@class="result"]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 102.0.1245.33, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60763}, msedge: {msedgedriverVersion: 101.0.1210.53 (019dbf6dd738..., userDataDir: C:\Users\Family\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60763/devtoo..., se:cdpVersion: 102.0.1245.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8d87c306d57205581b493ad8f2d1e055
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:376)
-	at org.example.Pages.Register_Page.successfulMsg(Register_Page.java:77)
-	at org.example.StepDefinition.D01_Register.register_successfully(D01_Register.java:57)
-	at ✽.user could register successfully(file:///C:/Users/Family/IdeaProjects/E-Commerce-Ahmed-Youssef/src/main/resources/features/F01_Register.feature:9)
-]]></failure>
+And user could register successfully........................................passed
+]]></system-out>
 </testcase>
-<testcase classname="F02_Login | user should be able to login to the system" name="user login with valid data" time="8.564">
+<testcase classname="F02_Login | user should be able to login to the system" name="user login with valid data" time="9.927">
 <system-out><![CDATA[When user navigate to login page............................................passed
 And user enter "Ahmed_Youssef@Live.com" and "P@ssw0rd"......................passed
 Then user click on login button.............................................passed
 And user could login successfully and go to home page.......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F03_ChangeCurrency | user could switch between currencies [$, €]" name="guest user can choose € currency" time="8.995">
+<testcase classname="F03_ChangeCurrency | user could switch between currencies [$, €]" name="guest user can choose € currency" time="7.735">
 <system-out><![CDATA[When user select “Euro” from currency dropdown list.........................passed
 Then user select “Dollar” from currency dropdown list.......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F04_Search | users will be able to search for products with different parameters" name="user could search using product name" time="6.575">
+<testcase classname="F04_Search | users will be able to search for products with different parameters" name="user could search using product name" time="6.525">
 <system-out><![CDATA[Given user click on search bar..............................................passed
 When user search for product like "Nokia"...................................passed
 And user click on search Button.............................................passed
 Then user could search successfully and go to search page...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F04_Search | users will be able to search for products with different parameters" name="user search using SKU" time="6.556">
+<testcase classname="F04_Search | users will be able to search for products with different parameters" name="user search using SKU" time="6.666">
 <system-out><![CDATA[Given user click on search bar..............................................passed
 When user search for product like "AP_MBP_13"...............................passed
 And user click on search Button.............................................passed
 Then user could search successfully with SKU................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F04_Search | users will be able to search for products with different parameters" name="user search using invalid product name" time="6.442">
+<testcase classname="F04_Search | users will be able to search for products with different parameters" name="user search using invalid product name" time="6.524">
 <system-out><![CDATA[Given user click on search bar..............................................passed
 When user search for product like "N@kkk$a".................................passed
 And user click on search Button.............................................passed
 Then user could not search..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F05_HoverCategories  |  user could hover categories and select sub category" name="user could hover categories" time="7.783">
+<testcase classname="F05_HoverCategories  |  user could hover categories and select sub category" name="user could hover categories" time="7.741">
 <system-out><![CDATA[When user hover category and select subcategory.............................passed
 And user click on subcategory...............................................passed
 Then user go to relative product page.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F06_HomeSliders | users will be able to open sliders in home page" name="First slider clickable on homepage" time="7.907">
+<testcase classname="F06_HomeSliders | users will be able to open sliders in home page" name="First slider clickable on homepage" time="7.903">
 <failure message="URL after click on First Slide expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[When user clicks on first slider............................................passed
 Then relative product for first slider is displayed.........................failed
 
@@ -91,7 +62,7 @@ java.lang.AssertionError: URL after click on First Slide expected [https://demo.
 	at ✽.relative product for first slider is displayed(file:///C:/Users/Family/IdeaProjects/E-Commerce-Ahmed-Youssef/src/main/resources/features/F06_HomeSliders.feature:6)
 ]]></failure>
 </testcase>
-<testcase classname="F06_HomeSliders | users will be able to open sliders in home page" name="Second slider clickable on homepage" time="10.243">
+<testcase classname="F06_HomeSliders | users will be able to open sliders in home page" name="Second slider clickable on homepage" time="10.396">
 <failure message="URL after click on Second Slide expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[When user clicks on second slider...........................................passed
 Then relative product for second slider is displayed........................failed
 
@@ -106,17 +77,17 @@ java.lang.AssertionError: URL after click on Second Slide expected [https://demo
 	at ✽.relative product for second slider is displayed(file:///C:/Users/Family/IdeaProjects/E-Commerce-Ahmed-Youssef/src/main/resources/features/F06_HomeSliders.feature:11)
 ]]></failure>
 </testcase>
-<testcase classname="F07_FollowUs | users could open followUs links" name="user opens facebook link" time="7.941">
+<testcase classname="F07_FollowUs | users could open followUs links" name="user opens facebook link" time="7.996">
 <system-out><![CDATA[When user opens facebook link...............................................passed
 Then "https://www.facebook.com/nopCommerce" is opened in new tab............passed
 ]]></system-out>
 </testcase>
-<testcase classname="F07_FollowUs | users could open followUs links" name="user opens twitter link" time="7.97">
+<testcase classname="F07_FollowUs | users could open followUs links" name="user opens twitter link" time="7.871">
 <system-out><![CDATA[When user opens twitter link................................................passed
 Then "https://twitter.com/nopCommerce" is opened in new tab.................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F07_FollowUs | users could open followUs links" name="user opens rss link" time="8.141">
+<testcase classname="F07_FollowUs | users could open followUs links" name="user opens rss link" time="8.149">
 <failure message="Index: 1, Size: 1" type="java.lang.IndexOutOfBoundsException"><![CDATA[When user opens rss link....................................................passed
 Then "https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab.failed
 
@@ -128,24 +99,24 @@ java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
 	at ✽."https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab(file:///C:/Users/Family/IdeaProjects/E-Commerce-Ahmed-Youssef/src/main/resources/features/F07_FollowUs.feature:15)
 ]]></failure>
 </testcase>
-<testcase classname="F07_FollowUs | users could open followUs links" name="user opens youtube link" time="8.279">
+<testcase classname="F07_FollowUs | users could open followUs links" name="user opens youtube link" time="8.208">
 <system-out><![CDATA[When user opens youtube link................................................passed
 Then "https://www.youtube.com/user/nopCommerce" is opened in new tab........passed
 ]]></system-out>
 </testcase>
-<testcase classname="F08_WishList  |  guest user could add products to wishlist" name="success message is visible after adding item to wishlist" time="6.192">
+<testcase classname="F08_WishList  |  guest user could add products to wishlist" name="success message is visible after adding item to wishlist" time="6.272">
 <system-out><![CDATA[When user add item to wishlist..............................................passed
 Then wishlist notification success is visible...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F08_WishList  |  guest user could add products to wishlist" name="number of wishlist items in home page is increased" time="6.275">
+<testcase classname="F08_WishList  |  guest user could add products to wishlist" name="number of wishlist items in home page is increased" time="6.272">
 <system-out><![CDATA[When user add item to wishlist..............................................passed
 Then wishlist notification success is visible...............................passed
 And user get the number of wishlist items after adding item.................passed
 Then the number of wishlist increased.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="F08_WishList  |  guest user could add products to wishlist" name="added items are displayed on wishlist" time="8.576">
+<testcase classname="F08_WishList  |  guest user could add products to wishlist" name="added items are displayed on wishlist" time="8">
 <system-out><![CDATA[When user add item to wishlist..............................................passed
 Then wishlist notification success is visible...............................passed
 And user get the number of wishlist items after adding item.................passed

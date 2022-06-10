@@ -77,7 +77,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>11 Jun 2022, 00:02</td>
+      <td>11 Jun 2022, 00:29</td>
     </tr>
   </tbody>
 </table>
@@ -117,7 +117,7 @@ $(document).ready(function() {
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_2543890845.html">F01_Register | user should able to create new account</a>
+      <a href="report-feature_5_880582028.html">F06_HomeSliders | users will be able to open sliders in home page</a>
     </div>
 
 
@@ -125,14 +125,14 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">8.958</span>
+  <span class="lead-duration duration">2.081</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
 <div class="brief failed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">user register with valid data</span>
+  <span class="name">First slider clickable on homepage</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -163,7 +163,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.StepDefinition.Hooks.openBrowser()</span>
 
-  <span class="lead-duration duration">4.608</span>
+  <span class="lead-duration duration">2.092</span>
 
           </div>
 
@@ -196,65 +196,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">user navigate to register page</span>
-
-  <span class="lead-duration duration">0.626</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">user choose male or female</span>
-
-  <span class="lead-duration duration">0.040</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
 <div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">user enter valid data</span>
+  <span class="name">user clicks on first slider</span>
 
-  <span class="lead-duration duration">0.681</span>
+  <span class="lead-duration duration">0.574</span>
 
 </div>
 
@@ -277,38 +223,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
-  <span class="name">user press on register button</span>
+  <span class="name">relative product for first slider is displayed</span>
 
-  <span class="lead-duration duration">0.560</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And failed">
-  <span class="keyword indention">And</span>
-  <span class="name">user could register successfully</span>
-
-  <span class="lead-duration duration">7.051</span>
+  <span class="lead-duration duration">1.507</span>
 
 </div>
 
@@ -320,36 +239,17 @@ $(document).ready(function() {
   <div class="inner-level">
     <div class="message indention">
       <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
+          <a>java.lang.AssertionError:</a>
       </div>
       <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&quot;result&quot;]&quot;}
-  (Session info: MicrosoftEdge=102.0.1245.33)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.2.0', revision: '86eb611648'
-System info: host: 'DESKTOP-SCP6E2R', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8d87c306d57205581b493ad8f2d1e055, findElement {using=xpath, value=//div[@class=&quot;result&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 102.0.1245.33, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60763}, msedge: {msedgedriverVersion: 101.0.1210.53 (019dbf6dd738..., userDataDir: C:\Users\Family\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60763/devtoo..., se:cdpVersion: 102.0.1245.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8d87c306d57205581b493ad8f2d1e055
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:376)
-	at org.example.Pages.Register_Page.successfulMsg(Register_Page.java:77)
-	at org.example.StepDefinition.D01_Register.register_successfully(D01_Register.java:57)
-	at &#10045;.user could register successfully(file:///C:/Users/Family/IdeaProjects/E-Commerce-Ahmed-Youssef/src/main/resources/features/F01_Register.feature:9)
+        <pre>java.lang.AssertionError: URL after click on First Slide expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.example.StepDefinition.D06_HomeSliders.first_slide_displayed(D06_HomeSliders.java:20)
+	at &#10045;.relative product for first slider is displayed(file:///C:/Users/Family/IdeaProjects/E-Commerce-Ahmed-Youssef/src/main/resources/features/F06_HomeSliders.feature:6)
 </pre>
       </div>
     </div>
@@ -391,7 +291,7 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
             <span class="keyword indention">After</span>
               <span class="location name">org.example.StepDefinition.Hooks.closeBrowser()</span>
 
-  <span class="lead-duration duration">3.716</span>
+  <span class="lead-duration duration">3.729</span>
 
           </div>
 
@@ -420,14 +320,14 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
 </div>
 
 
-  <span class="lead-duration duration">2.081</span>
+  <span class="lead-duration duration">4.557</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-6">
 
 <div class="brief failed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">First slider clickable on homepage</span>
+  <span class="name">Second slider clickable on homepage</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -458,7 +358,7 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.StepDefinition.Hooks.openBrowser()</span>
 
-  <span class="lead-duration duration">2.113</span>
+  <span class="lead-duration duration">2.122</span>
 
           </div>
 
@@ -493,9 +393,9 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
 
 <div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">user clicks on first slider</span>
+  <span class="name">user clicks on second slider</span>
 
-  <span class="lead-duration duration">0.576</span>
+  <span class="lead-duration duration">3.554</span>
 
 </div>
 
@@ -520,9 +420,9 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
 
 <div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
-  <span class="name">relative product for first slider is displayed</span>
+  <span class="name">relative product for second slider is displayed</span>
 
-  <span class="lead-duration duration">1.505</span>
+  <span class="lead-duration duration">1.003</span>
 
 </div>
 
@@ -537,14 +437,14 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
           <a>java.lang.AssertionError:</a>
       </div>
       <div id="msg-9" class="collapse collapsable-details  in ">
-        <pre>java.lang.AssertionError: URL after click on First Slide expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+        <pre>java.lang.AssertionError: URL after click on Second Slide expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.example.StepDefinition.D06_HomeSliders.first_slide_displayed(D06_HomeSliders.java:20)
-	at &#10045;.relative product for first slider is displayed(file:///C:/Users/Family/IdeaProjects/E-Commerce-Ahmed-Youssef/src/main/resources/features/F06_HomeSliders.feature:6)
+	at org.example.StepDefinition.D06_HomeSliders.second_slide_displayed(D06_HomeSliders.java:33)
+	at &#10045;.relative product for second slider is displayed(file:///C:/Users/Family/IdeaProjects/E-Commerce-Ahmed-Youssef/src/main/resources/features/F06_HomeSliders.feature:11)
 </pre>
       </div>
     </div>
@@ -586,7 +486,7 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
             <span class="keyword indention">After</span>
               <span class="location name">org.example.StepDefinition.Hooks.closeBrowser()</span>
 
-  <span class="lead-duration duration">3.713</span>
+  <span class="lead-duration duration">3.717</span>
 
           </div>
 
@@ -607,7 +507,7 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_5_880582028.html">F06_HomeSliders | users will be able to open sliders in home page</a>
+      <a href="report-feature_6_1195024867.html">F07_FollowUs | users could open followUs links</a>
     </div>
 
 
@@ -615,14 +515,14 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
 </div>
 
 
-  <span class="lead-duration duration">4.537</span>
+  <span class="lead-duration duration">2.439</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-11">
 
 <div class="brief failed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">Second slider clickable on homepage</span>
+  <span class="name">user opens rss link</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -653,7 +553,7 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.StepDefinition.Hooks.openBrowser()</span>
 
-  <span class="lead-duration duration">1.998</span>
+  <span class="lead-duration duration">2.035</span>
 
           </div>
 
@@ -688,9 +588,9 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
 
 <div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">user clicks on second slider</span>
+  <span class="name">user opens rss link</span>
 
-  <span class="lead-duration duration">3.534</span>
+  <span class="lead-duration duration">0.437</span>
 
 </div>
 
@@ -715,9 +615,9 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
 
 <div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
-  <span class="name">relative product for second slider is displayed</span>
+  <span class="name">&quot;<span class="argument">https://demo.nopcommerce.com/new-online-store-is-open</span>&quot; is opened in new tab</span>
 
-  <span class="lead-duration duration">1.003</span>
+  <span class="lead-duration duration">2.002</span>
 
 </div>
 
@@ -729,17 +629,14 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
   <div class="inner-level">
     <div class="message indention">
       <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-14">
-          <a>java.lang.AssertionError:</a>
+          <a>java.lang.IndexOutOfBoundsException:</a>
       </div>
       <div id="msg-14" class="collapse collapsable-details  in ">
-        <pre>java.lang.AssertionError: URL after click on Second Slide expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.example.StepDefinition.D06_HomeSliders.second_slide_displayed(D06_HomeSliders.java:33)
-	at &#10045;.relative product for second slider is displayed(file:///C:/Users/Family/IdeaProjects/E-Commerce-Ahmed-Youssef/src/main/resources/features/F06_HomeSliders.feature:11)
+        <pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at org.example.StepDefinition.D07_FollowUsStepDef.opens_new_tab(D07_FollowUsStepDef.java:23)
+	at &#10045;.&quot;https://demo.nopcommerce.com/new-online-store-is-open&quot; is opened in new tab(file:///C:/Users/Family/IdeaProjects/E-Commerce-Ahmed-Youssef/src/main/resources/features/F07_FollowUs.feature:15)
 </pre>
       </div>
     </div>
@@ -781,199 +678,7 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
             <span class="keyword indention">After</span>
               <span class="location name">org.example.StepDefinition.Hooks.closeBrowser()</span>
 
-  <span class="lead-duration duration">3.705</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-  </div>
-</div>
-
-
-<div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_6_1195024867.html">F07_FollowUs | users could open followUs links</a>
-    </div>
-
-
-<div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">2.448</span>
-
-
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-16">
-
-<div class="brief failed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">user opens rss link</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-16" class="collapse collapsable-details  in ">
-
-
-  <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-17">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="before-17" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-              <span class="location name">org.example.StepDefinition.Hooks.openBrowser()</span>
-
-  <span class="lead-duration duration">1.998</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-  </div>
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-18">
-
-<div class="brief failed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-18" class="inner-level collapse collapsable-details  in ">
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">user opens rss link</span>
-
-  <span class="lead-duration duration">0.445</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then failed">
-  <span class="keyword indention">Then</span>
-  <span class="name">&quot;<span class="argument">https://demo.nopcommerce.com/new-online-store-is-open</span>&quot; is opened in new tab</span>
-
-  <span class="lead-duration duration">2.003</span>
-
-</div>
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-19">
-          <a>java.lang.IndexOutOfBoundsException:</a>
-      </div>
-      <div id="msg-19" class="collapse collapsable-details  in ">
-        <pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
-	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
-	at java.util.ArrayList.get(ArrayList.java:435)
-	at org.example.StepDefinition.D07_FollowUsStepDef.opens_new_tab(D07_FollowUsStepDef.java:23)
-	at &#10045;.&quot;https://demo.nopcommerce.com/new-online-store-is-open&quot; is opened in new tab(file:///C:/Users/Family/IdeaProjects/E-Commerce-Ahmed-Youssef/src/main/resources/features/F07_FollowUs.feature:15)
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-  <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-20">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="after-20" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">org.example.StepDefinition.Hooks.closeBrowser()</span>
-
-  <span class="lead-duration duration">3.695</span>
+  <span class="lead-duration duration">3.675</span>
 
           </div>
 

@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>11 Jun 2022, 00:02</td>
+      <td>11 Jun 2022, 00:29</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">F01_Register | user should able to create new account</td>
-          <td      class="passed"    >4</td>
-          <td      class="failed"    >1</td>
+          <td      class="passed"    >5</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">5</td>
 
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="8958000000">8.958</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="2427000000">2.427</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -173,7 +173,7 @@ $(document).ready(function() {
 </div>
 
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Feature</span>
   <span class="name">F01_Register | user should able to create new account</span>
 
@@ -191,12 +191,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">8.958</span>
+  <span class="lead-duration duration">2.427</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">user register with valid data</span>
 
@@ -207,7 +207,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
@@ -229,7 +229,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">org.example.StepDefinition.Hooks.openBrowser()</span>
 
-  <span class="lead-duration duration">4.608</span>
+  <span class="lead-duration duration">3.283</span>
 
           </div>
 
@@ -246,9 +246,9 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -258,7 +258,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -266,7 +266,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">user navigate to register page</span>
 
-  <span class="lead-duration duration">0.626</span>
+  <span class="lead-duration duration">0.644</span>
 
 </div>
 
@@ -293,7 +293,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user choose male or female</span>
 
-  <span class="lead-duration duration">0.040</span>
+  <span class="lead-duration duration">0.042</span>
 
 </div>
 
@@ -320,7 +320,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user enter valid data</span>
 
-  <span class="lead-duration duration">0.681</span>
+  <span class="lead-duration duration">0.656</span>
 
 </div>
 
@@ -347,7 +347,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">user press on register button</span>
 
-  <span class="lead-duration duration">0.560</span>
+  <span class="lead-duration duration">1.035</span>
 
 </div>
 
@@ -370,11 +370,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And failed">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">user could register successfully</span>
 
-  <span class="lead-duration duration">7.051</span>
+  <span class="lead-duration duration">0.050</span>
 
 </div>
 
@@ -382,44 +382,6 @@ $(document).ready(function() {
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&quot;result&quot;]&quot;}
-  (Session info: MicrosoftEdge=102.0.1245.33)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.2.0', revision: '86eb611648'
-System info: host: 'DESKTOP-SCP6E2R', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8d87c306d57205581b493ad8f2d1e055, findElement {using=xpath, value=//div[@class=&quot;result&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 102.0.1245.33, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60763}, msedge: {msedgedriverVersion: 101.0.1210.53 (019dbf6dd738..., userDataDir: C:\Users\Family\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60763/devtoo..., se:cdpVersion: 102.0.1245.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8d87c306d57205581b493ad8f2d1e055
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:376)
-	at org.example.Pages.Register_Page.successfulMsg(Register_Page.java:77)
-	at org.example.StepDefinition.D01_Register.register_successfully(D01_Register.java:57)
-	at &#10045;.user could register successfully(file:///C:/Users/Family/IdeaProjects/E-Commerce-Ahmed-Youssef/src/main/resources/features/F01_Register.feature:9)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -439,7 +401,7 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -451,13 +413,13 @@ Session ID: 8d87c306d57205581b493ad8f2d1e055
 
     </div>
 
-    <div id="after-5" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">org.example.StepDefinition.Hooks.closeBrowser()</span>
 
-  <span class="lead-duration duration">3.716</span>
+  <span class="lead-duration duration">3.700</span>
 
           </div>
 
