@@ -1,0 +1,3 @@
+file:src/main/resources/features/F01_Register.feature:4
+file:src/main/resources/features/F07_FollowUs.feature:13
+file:src/main/resources/features/F06_HomeSliders.feature:4:9

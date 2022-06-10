@@ -1,5 +1,5 @@
 Feature: F08_WishList  |  guest user could add products to wishlist
-  
+
   Scenario: success message is visible after adding item to wishlist
     When user add item to wishlist
     Then wishlist notification success is visible
