@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.Runners.Runners" time="126.856" tests="16" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.Runners.Runners" time="136.629" tests="17" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_331\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Family\AppData\Local\Temp\surefire4305692781113263847\surefirebooter470908109616560712.jar C:\Users\Family\AppData\Local\Temp\surefire4305692781113263847 2022-06-11T00-27-26_165-jvmRun1 surefire21544067262619256tmp surefire_06308087950453708631tmp"/>
+    <property name="sun.java.command" value="C:\Users\Family\AppData\Local\Temp\surefire5607128711057875052\surefirebooter647948601862362290.jar C:\Users\Family\AppData\Local\Temp\surefire5607128711057875052 2022-06-12T22-40-37_668-jvmRun1 surefire5114936910671591647tmp surefire_04597043007170969045tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Family\IdeaProjects\E-Commerce-Ahmed-Youssef\target\test-classes;C:\Users\Family\IdeaProjects\E-Commerce-Ahmed-Youssef\target\classes;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-java\4.2.0\selenium-java-4.2.0.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-api\4.2.0\selenium-api-4.2.0.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.2.0\selenium-chrome-driver-4.2.0.jar;C:\Users\Family\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Family\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Family\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Family\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Family\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Family\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Family\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Family\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Family\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.2.0\selenium-chromium-driver-4.2.0.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-json\4.2.0\selenium-json-4.2.0.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v100\4.2.0\selenium-devtools-v100-4.2.0.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.2.0\selenium-devtools-v101-4.2.0.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.2.0\selenium-devtools-v102-4.2.0.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.2.0\selenium-devtools-v85-4.2.0.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.2.0\selenium-edge-driver-4.2.0.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.2.0\selenium-firefox-driver-4.2.0.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.2.0\selenium-ie-driver-4.2.0.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.2.0\selenium-opera-driver-4.2.0.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.2.0\selenium-remote-driver-4.2.0.jar;C:\Users\Family\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Family\.m2\repository\io\netty\netty-buffer\4.1.77.Final\netty-buffer-4.1.77.Final.jar;C:\Users\Family\.m2\repository\io\netty\netty-codec-http\4.1.77.Final\netty-codec-http-4.1.77.Final.jar;C:\Users\Family\.m2\repository\io\netty\netty-codec\4.1.77.Final\netty-codec-4.1.77.Final.jar;C:\Users\Family\.m2\repository\io\netty\netty-handler\4.1.77.Final\netty-handler-4.1.77.Final.jar;C:\Users\Family\.m2\repository\io\netty\netty-common\4.1.77.Final\netty-common-4.1.77.Final.jar;C:\Users\Family\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.77.Final\netty-transport-classes-epoll-4.1.77.Final.jar;C:\Users\Family\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.77.Final\netty-transport-classes-kqueue-4.1.77.Final.jar;C:\Users\Family\.m2\repository\io\netty\netty-transport-native-epoll\4.1.77.Final\netty-transport-native-epoll-4.1.77.Final.jar;C:\Users\Family\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.77.Final\netty-transport-native-kqueue-4.1.77.Final.jar;C:\Users\Family\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.77.Final\netty-transport-native-unix-common-4.1.77.Final.jar;C:\Users\Family\.m2\repository\io\netty\netty-transport\4.1.77.Final\netty-transport-4.1.77.Final.jar;C:\Users\Family\.m2\repository\io\netty\netty-resolver\4.1.77.Final\netty-resolver-4.1.77.Final.jar;C:\Users\Family\.m2\repository\io\opentelemetry\opentelemetry-api\1.14.0\opentelemetry-api-1.14.0.jar;C:\Users\Family\.m2\repository\io\opentelemetry\opentelemetry-context\1.14.0\opentelemetry-context-1.14.0.jar;C:\Users\Family\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.14.0\opentelemetry-exporter-logging-1.14.0.jar;C:\Users\Family\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.14.0\opentelemetry-sdk-metrics-1.14.0.jar;C:\Users\Family\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.14.0-alpha\opentelemetry-sdk-logs-1.14.0-alpha.jar;C:\Users\Family\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.14.0\opentelemetry-sdk-common-1.14.0.jar;C:\Users\Family\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.14.0\opentelemetry-sdk-extension-autoconfigure-spi-1.14.0.jar;C:\Users\Family\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.14.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.14.0-alpha.jar;C:\Users\Family\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.14.0\opentelemetry-sdk-trace-1.14.0.jar;C:\Users\Family\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.14.0\opentelemetry-sdk-1.14.0.jar;C:\Users\Family\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.14.0-alpha\opentelemetry-semconv-1.14.0-alpha.jar;C:\Users\Family\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Family\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Family\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Family\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Family\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Family\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Family\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Family\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Family\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Family\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Family\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Family\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-http\4.2.0\selenium-http-4.2.0.jar;C:\Users\Family\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.2.0\selenium-safari-driver-4.2.0.jar;C:\Users\Family\.m2\repository\org\seleniumhq\selenium\selenium-support\4.2.0\selenium-support-4.2.0.jar;C:\Users\Family\.m2\repository\io\cucumber\cucumber-java\7.3.4\cucumber-java-7.3.4.jar;C:\Users\Family\.m2\repository\io\cucumber\cucumber-core\7.3.4\cucumber-core-7.3.4.jar;C:\Users\Family\.m2\repository\io\cucumber\cucumber-gherkin\7.3.4\cucumber-gherkin-7.3.4.jar;C:\Users\Family\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.3.4\cucumber-gherkin-messages-7.3.4.jar;C:\Users\Family\.m2\repository\io\cucumber\gherkin\23.0.1\gherkin-23.0.1.jar;C:\Users\Family\.m2\repository\io\cucumber\messages\18.0.0\messages-18.0.0.jar;C:\Users\Family\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\Family\.m2\repository\io\cucumber\cucumber-expressions\15.1.1\cucumber-expressions-15.1.1.jar;C:\Users\Family\.m2\repository\io\cucumber\datatable\7.3.4\datatable-7.3.4.jar;C:\Users\Family\.m2\repository\io\cucumber\cucumber-plugin\7.3.4\cucumber-plugin-7.3.4.jar;C:\Users\Family\.m2\repository\io\cucumber\docstring\7.3.4\docstring-7.3.4.jar;C:\Users\Family\.m2\repository\io\cucumber\html-formatter\19.1.0\html-formatter-19.1.0.jar;C:\Users\Family\.m2\repository\io\cucumber\ci-environment\9.0.4\ci-environment-9.0.4.jar;C:\Users\Family\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Family\.m2\repository\io\cucumber\cucumber-testng\7.3.4\cucumber-testng-7.3.4.jar;C:\Users\Family\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Family\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Family\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Family\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Family"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Family\AppData\Local\Temp\surefire4305692781113263847\surefirebooter470908109616560712.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Family\AppData\Local\Temp\surefire5607128711057875052\surefirebooter647948601862362290.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_331\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_331\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_331\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,304 +61,228 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="9.499"/>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="9.936"/>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="7.742"/>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="6.531"/>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="6.672"/>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="6.534"/>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="7.745"/>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="7.916">
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="11.154"/>
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="8.632"/>
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="8.213"/>
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="6.878"/>
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="8.061"/>
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="6.541"/>
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="6.581"/>
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="7.914"/>
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="7.864">
     <failure message="URL after click on First Slide expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError">java.lang.AssertionError: URL after click on First Slide expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
 </failure>
-    <system-err><![CDATA[Starting MSEdgeDriver 101.0.1210.53 (019dbf6dd738aa1846d87f5734878db0ee9df370) on port 58380
+    <system-err><![CDATA[Starting MSEdgeDriver 101.0.1210.53 (019dbf6dd738aa1846d87f5734878db0ee9df370) on port 64057
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
 MSEdgeDriver was started successfully.
-[1654900103.424][WARNING]: This version of MSEdgeDriver has not been tested with MSEdge version 102.
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1655066504.400][WARNING]: This version of MSEdgeDriver has not been tested with MSEdge version 102.
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 102
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:23 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:44 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="10.4">
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="10.306">
     <failure message="URL after click on Second Slide expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError">java.lang.AssertionError: URL after click on Second Slide expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
 </failure>
-    <system-err><![CDATA[Starting MSEdgeDriver 101.0.1210.53 (019dbf6dd738aa1846d87f5734878db0ee9df370) on port 54944
+    <system-err><![CDATA[Starting MSEdgeDriver 101.0.1210.53 (019dbf6dd738aa1846d87f5734878db0ee9df370) on port 57981
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
 MSEdgeDriver was started successfully.
-[1654900111.358][WARNING]: This version of MSEdgeDriver has not been tested with MSEdge version 102.
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1655066512.300][WARNING]: This version of MSEdgeDriver has not been tested with MSEdge version 102.
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 102
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:31 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:41:52 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="8.001"/>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="7.876"/>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="8.153">
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="7.918"/>
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="7.999"/>
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="8.25">
     <failure message="Index: 1, Size: 1" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
 </failure>
-    <system-out><![CDATA[
-Scenario: user register with valid data &amp#27;[90m# src/main/resources/features/F01_Register.feature:4&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigate to register page&amp#27;[0m  &amp#27;[90m# org.example.StepDefinition.D01_Register.user_navigate_to_register_page()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser choose male or female&amp#27;[0m        &amp#27;[90m# org.example.StepDefinition.D01_Register.user_choose_Gender_Option()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter valid data&amp#27;[0m            &amp#27;[90m# org.example.StepDefinition.D01_Register.user_enter_first_name()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser press on register button&amp#27;[0m    &amp#27;[90m# org.example.StepDefinition.D01_Register.user_register_successfully()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser could register successfully&amp#27;[0m  &amp#27;[90m# org.example.StepDefinition.D01_Register.register_successfully()&amp#27;[0m
-
-Scenario: user login with valid data                     &amp#27;[90m# src/main/resources/features/F02_Login.feature:4&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser navigate to login page&amp#27;[0m                       &amp#27;[90m# org.example.StepDefinition.D02_Login.user_navigate_to_login_page()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter "&amp#27;[0m&amp#27;[32m&amp#27;[1mAhmed_Youssef@Live.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1mP@ssw0rd&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# org.example.StepDefinition.D02_Login.vaild_data(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser click on login button&amp#27;[0m                        &amp#27;[90m# org.example.StepDefinition.D02_Login.click_Login()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser could login successfully and go to home page&amp#27;[0m  &amp#27;[90m# org.example.StepDefinition.D02_Login.login_successfully()&amp#27;[0m
-
-Scenario: guest user can choose € currency              &amp#27;[90m# src/main/resources/features/F03_ChangeCurrency.feature:4&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser select “Euro” from currency dropdown list&amp#27;[0m   &amp#27;[90m# org.example.StepDefinition.D03_ChangeCurrency.user_select_Euro()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser select “Dollar” from currency dropdown list&amp#27;[0m &amp#27;[90m# org.example.StepDefinition.D03_ChangeCurrency.user_select_Dollar()&amp#27;[0m
-
-Scenario: user could search using product name              &amp#27;[90m# src/main/resources/features/F04_Search.feature:4&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser click on search bar&amp#27;[0m                            &amp#27;[90m# org.example.StepDefinition.D04_Search.user_click_on_searchbar()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser search for product like "&amp#27;[0m&amp#27;[32m&amp#27;[1mNokia&amp#27;[0m&amp#27;[32m"&amp#27;[0m                 &amp#27;[90m# org.example.StepDefinition.D04_Search.user_search_for_product(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on search Button&amp#27;[0m                           &amp#27;[90m# org.example.StepDefinition.D04_Search.user_click_on_searchButton()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser could search successfully and go to search page&amp#27;[0m &amp#27;[90m# org.example.StepDefinition.D04_Search.search_successfully()&amp#27;[0m
-
-Scenario: user search using SKU                 &amp#27;[90m# src/main/resources/features/F04_Search.feature:11&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser click on search bar&amp#27;[0m                &amp#27;[90m# org.example.StepDefinition.D04_Search.user_click_on_searchbar()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser search for product like "&amp#27;[0m&amp#27;[32m&amp#27;[1mAP_MBP_13&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# org.example.StepDefinition.D04_Search.user_search_for_product(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on search Button&amp#27;[0m               &amp#27;[90m# org.example.StepDefinition.D04_Search.user_click_on_searchButton()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser could search successfully with SKU&amp#27;[0m  &amp#27;[90m# org.example.StepDefinition.D04_Search.search_with_sku_successfully()&amp#27;[0m
-
-Scenario: user search using invalid product name &amp#27;[90m# src/main/resources/features/F04_Search.feature:18&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser click on search bar&amp#27;[0m                 &amp#27;[90m# org.example.StepDefinition.D04_Search.user_click_on_searchbar()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser search for product like "&amp#27;[0m&amp#27;[32m&amp#27;[1mN@kkk$a&amp#27;[0m&amp#27;[32m"&amp#27;[0m    &amp#27;[90m# org.example.StepDefinition.D04_Search.user_search_for_product(java.lang.String)&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on search Button&amp#27;[0m                &amp#27;[90m# org.example.StepDefinition.D04_Search.user_click_on_searchButton()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser could not search&amp#27;[0m                     &amp#27;[90m# org.example.StepDefinition.D04_Search.no_products_found()&amp#27;[0m
-
-Scenario: user could hover categories             &amp#27;[90m# src/main/resources/features/F05_HoverCategories.feature:4&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser hover category and select subcategory&amp#27;[0m &amp#27;[90m# org.example.StepDefinition.D05_HoverCategories.user_hover_category()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on subcategory&amp#27;[0m                   &amp#27;[90m# org.example.StepDefinition.D05_HoverCategories.user_clicks_subcategory()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser go to relative product page&amp#27;[0m           &amp#27;[90m# org.example.StepDefinition.D05_HoverCategories.relative_subcategory()&amp#27;[0m
-
-Scenario: First slider clickable on homepage          &amp#27;[90m# src/main/resources/features/F06_HomeSliders.feature:4&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on first slider&amp#27;[0m                    &amp#27;[90m# org.example.StepDefinition.D06_HomeSliders.click_on_first_slider()&amp#27;[0m
-  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mrelative product for first slider is displayed&amp#27;[0m &amp#27;[90m# org.example.StepDefinition.D06_HomeSliders.first_slide_displayed()&amp#27;[0m
-      &amp#27;[31mjava.lang.AssertionError: URL after click on First Slide expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.example.StepDefinition.D06_HomeSliders.first_slide_displayed(D06_HomeSliders.java:20)
-	at ✽.relative product for first slider is displayed(file:///C:/Users/Family/IdeaProjects/E-Commerce-Ahmed-Youssef/src/main/resources/features/F06_HomeSliders.feature:6)
-&amp#27;[0m
-
-Scenario: Second slider clickable on homepage          &amp#27;[90m# src/main/resources/features/F06_HomeSliders.feature:9&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on second slider&amp#27;[0m                    &amp#27;[90m# org.example.StepDefinition.D06_HomeSliders.click_on_second_slider()&amp#27;[0m
-  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mrelative product for second slider is displayed&amp#27;[0m &amp#27;[90m# org.example.StepDefinition.D06_HomeSliders.second_slide_displayed()&amp#27;[0m
-      &amp#27;[31mjava.lang.AssertionError: URL after click on Second Slide expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.example.StepDefinition.D06_HomeSliders.second_slide_displayed(D06_HomeSliders.java:33)
-	at ✽.relative product for second slider is displayed(file:///C:/Users/Family/IdeaProjects/E-Commerce-Ahmed-Youssef/src/main/resources/features/F06_HomeSliders.feature:11)
-&amp#27;[0m
-
-Scenario: user opens facebook link                                 &amp#27;[90m# src/main/resources/features/F07_FollowUs.feature:3&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser opens facebook link&amp#27;[0m                                    &amp#27;[90m# org.example.StepDefinition.D07_FollowUsStepDef.user_opens_facebook()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32m"&amp#27;[0m&amp#27;[32m&amp#27;[1mhttps://www.facebook.com/nopCommerce&amp#27;[0m&amp#27;[32m" is opened in new tab&amp#27;[0m &amp#27;[90m# org.example.StepDefinition.D07_FollowUsStepDef.opens_new_tab(java.lang.String)&amp#27;[0m
-
-Scenario: user opens twitter link                             &amp#27;[90m# src/main/resources/features/F07_FollowUs.feature:8&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser opens twitter link&amp#27;[0m                                &amp#27;[90m# org.example.StepDefinition.D07_FollowUsStepDef.user_opens_twitter()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32m"&amp#27;[0m&amp#27;[32m&amp#27;[1mhttps://twitter.com/nopCommerce&amp#27;[0m&amp#27;[32m" is opened in new tab&amp#27;[0m &amp#27;[90m# org.example.StepDefinition.D07_FollowUsStepDef.opens_new_tab(java.lang.String)&amp#27;[0m
-
-Scenario: user opens rss link                                                       &amp#27;[90m# src/main/resources/features/F07_FollowUs.feature:13&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser opens rss link&amp#27;[0m                       ]]></system-out>
-    <system-err><![CDATA[Starting MSEdgeDriver 101.0.1210.53 (019dbf6dd738aa1846d87f5734878db0ee9df370) on port 49949
+    <system-err><![CDATA[Starting MSEdgeDriver 101.0.1210.53 (019dbf6dd738aa1846d87f5734878db0ee9df370) on port 63326
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
 MSEdgeDriver was started successfully.
-[1654900137.528][WARNING]: This version of MSEdgeDriver has not been tested with MSEdge version 102.
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1655066538.544][WARNING]: This version of MSEdgeDriver has not been tested with MSEdge version 102.
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 102
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "msedge" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Jun 11, 2022 12:28:57 AM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+Jun 12, 2022 10:42:18 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
 WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="8.211"/>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="6.276"/>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="6.276"/>
-  <testcase name="runScenario" classname="org.example.Runners.Runners" time="8.006"/>
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="8.424"/>
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="6.291"/>
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="6.264"/>
+  <testcase name="runScenario" classname="org.example.Runners.Runners" time="8.103"/>
 </testsuite>

@@ -37,4 +37,8 @@ public class Login_Page {
     public WebElement myAccount() {
        return driver.findElement(By.cssSelector("a[class=\"ico-account\"]"));
     }
+
+    public WebElement wrongMsg() {
+        return driver.findElement(By.cssSelector("div[class=\"message-error validation-summary-errors\"]"));
+    }
 }

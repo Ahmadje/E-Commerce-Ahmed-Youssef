@@ -42,4 +42,20 @@ public class D02_Login {
         // Assert All
         soft.assertAll();
     }
+
+    @And("user could not login successfully and go to home page")
+    public void cannot_login_successfully() {
+        // First Assertion
+        SoftAssert soft = new SoftAssert();
+        login.wrongMsg().isDisplayed();
+        String actual = login.wrongMsg().getText();
+        soft.assertEquals(actual,"Login was unsuccessful. Please correct the errors and try again.\n" +
+                "No customer account found","Wrong Msg");
+        // Second Assertion
+        actual = login.wrongMsg().getCssValue("color");
+        String expected = "rgba(228, 67, 75, 1)";
+        soft.assertEquals(actual, expected, "Wrong Message color");
+        // Assert All
+        soft.assertAll();
+    }
 }

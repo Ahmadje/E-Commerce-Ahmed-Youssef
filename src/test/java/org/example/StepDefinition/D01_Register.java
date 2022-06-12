@@ -6,6 +6,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.asserts.SoftAssert;
 
 public class D01_Register {
@@ -30,12 +31,19 @@ public class D01_Register {
 
         register.lastName().sendKeys("Youssef");
 
-        register.birthDay().sendKeys("21");
-        register.birthDay().sendKeys(Keys.ENTER);
-        register.birthMonth().sendKeys("December");
-        register.birthMonth().sendKeys(Keys.ENTER);
-        register.birthYear().sendKeys("1993");
-        register.birthYear().sendKeys(Keys.ENTER);
+        Select select = new Select(register.birthDay());
+        select.selectByIndex(21);
+
+        select = new Select(register.birthMonth());
+        select.selectByVisibleText("December");
+
+        select = new Select(register.birthYear());
+        select.selectByValue("1993");
+
+//        Other way to choose data
+//        register.birthDay().sendKeys("21");
+//        register.birthMonth().sendKeys("December");
+//        register.birthYear().sendKeys("1993");
 
         register.email().sendKeys("Ahmed_Youssef@Live.com");
 
