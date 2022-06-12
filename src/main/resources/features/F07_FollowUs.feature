@@ -1,5 +1,12 @@
 Feature: F07_FollowUs | users could open followUs links
 
+  Background: user login first
+    When user navigate to login page
+    And user enter "Ahmed_Youssef@Live.com" and "P@ssw0rd"
+    Then user click on login button
+    And user could login successfully and go to home page
+
+
   Scenario: user opens facebook link
     When user opens facebook link
     Then "https://www.facebook.com/nopCommerce" is opened in new tab

@@ -14,7 +14,7 @@ public class Search_Page {
     }
 
     public int productsList(){
-        int size = driver.findElements(By.cssSelector("div[class=\"products-container\"]")).size();
+        int size = driver.findElements(By.cssSelector("h2[class=\"product-title\"]")).size();
         return size;
     }
 
