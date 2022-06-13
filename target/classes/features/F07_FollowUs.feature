@@ -17,9 +17,9 @@ Feature: F07_FollowUs | users could open followUs links
     Then "https://twitter.com/nopCommerce" is opened in new tab
 
 
-#  Scenario: user opens rss link
-#    When user opens rss link
-#    Then "https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab
+  Scenario: user opens rss link
+    When user opens rss link
+    Then "https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab
 
 
   Scenario: user opens youtube link

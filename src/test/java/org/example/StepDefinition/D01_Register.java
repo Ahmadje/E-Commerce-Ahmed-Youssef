@@ -45,7 +45,7 @@ public class D01_Register {
 //        register.birthMonth().sendKeys("December");
 //        register.birthYear().sendKeys("1993");
 
-        register.email().sendKeys("Ahmed_Youssef@Live.com");
+        register.email().sendKeys("Ahmed_Youssef@live.com");
 
         register.companyName().sendKeys("Udacity");
 
