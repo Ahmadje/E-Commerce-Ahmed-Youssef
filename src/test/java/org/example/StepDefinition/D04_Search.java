@@ -9,13 +9,11 @@ import io.cucumber.java.en.When;
 import org.testng.asserts.SoftAssert;
 
 public class D04_Search {
-    Home_Page home;
-    Search_Page search;
+    Home_Page home= new Home_Page();
+    Search_Page search= new Search_Page();
 
     @Given("user click on search bar")
     public void user_click_on_searchbar() {
-        home = new Home_Page(Hooks.driver);
-        search = new Search_Page(Hooks.driver);
         home.searchBar().click();
     }
 

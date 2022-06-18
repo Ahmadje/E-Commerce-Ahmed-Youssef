@@ -8,11 +8,10 @@ import org.testng.Assert;
 import java.util.ArrayList;
 
 public class D07_FollowUsStepDef {
-    Home_Page home;
+    Home_Page home = new Home_Page();
 
     @Given("user opens facebook link")
     public void user_opens_facebook() {
-        home = new Home_Page(Hooks.driver);
         home.facebook().click();
     }
 
@@ -48,19 +47,17 @@ public class D07_FollowUsStepDef {
 
     @Given("user opens twitter link")
     public void user_opens_twitter() {
-        home = new Home_Page(Hooks.driver);
         home.twitter().click();
     }
 
     @Given("user opens rss link")
     public void user_opens_rss() {
-        home = new Home_Page(Hooks.driver);
         home.rss().click();
     }
 
     @Given("user opens youtube link")
     public void user_opens_youtube() {
-        home = new Home_Page(Hooks.driver);
+//        home = new Home_Page(Hooks.driver);
         home.youtube().click();
     }
 

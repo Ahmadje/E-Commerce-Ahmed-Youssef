@@ -9,14 +9,12 @@ import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 public class D08_WishList {
-    Home_Page home;
-    Wishlist_Page wish;
+    Home_Page home= new Home_Page();
+    Wishlist_Page wish= new Wishlist_Page();
     int num;
 
     @Given("user add item to wishlist")
     public void user_add_item_to_wishlist() {
-        home = new Home_Page(Hooks.driver);
-        wish = new Wishlist_Page(Hooks.driver);
         home.addWishList().get(2).click();
     }
 

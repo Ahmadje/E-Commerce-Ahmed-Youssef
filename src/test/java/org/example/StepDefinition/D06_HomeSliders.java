@@ -7,11 +7,10 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 
 public class D06_HomeSliders {
-    Home_Page home;
+    Home_Page home = new Home_Page();
 
     @When("user clicks on first slider")
     public void click_on_first_slider(){
-        home = new Home_Page(Hooks.driver);
         Hooks.driver.findElement(By.cssSelector("a[rel=\"0\"]")).click();
         home.slider("1").click();
     }
@@ -23,9 +22,7 @@ public class D06_HomeSliders {
     }
 
     @When("user clicks on second slider")
-    public void click_on_second_slider() throws InterruptedException {
-        home = new Home_Page(Hooks.driver);
-//        Thread.sleep(2000);
+    public void click_on_second_slider() {
         Hooks.driver.findElement(By.cssSelector("a[rel=\"1\"]")).click();
         home.slider("2").click();
     }

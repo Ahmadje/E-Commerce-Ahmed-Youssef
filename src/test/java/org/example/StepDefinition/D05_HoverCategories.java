@@ -9,14 +9,12 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
 public class D05_HoverCategories {
-    Home_Page home;
-    Category_Page category;
+    Home_Page home = new Home_Page();
+    Category_Page category = new Category_Page();
     String subCategoryName;
 
     @When("user hover category and select subcategory")
     public void user_hover_category() throws InterruptedException {
-        home = new Home_Page(Hooks.driver);
-        category = new Category_Page(Hooks.driver);
         Actions action = new Actions(Hooks.driver);
         action.moveToElement(home.computers()).perform();
         action.moveToElement(home.computers()).perform();

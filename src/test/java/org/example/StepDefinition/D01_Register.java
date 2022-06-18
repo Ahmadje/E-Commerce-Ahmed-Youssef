@@ -10,13 +10,11 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.asserts.SoftAssert;
 
 public class D01_Register {
-    Register_Page register;
-    Home_Page home;
+    Register_Page register = new Register_Page();
+    Home_Page home = new Home_Page();
 
     @Given("user navigate to register page")
     public void user_navigate_to_register_page() {
-        register = new Register_Page(Hooks.driver);
-        home = new Home_Page(Hooks.driver);
         home.Navigate_to_RegisterPage().click();
     }
 

@@ -7,11 +7,10 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 
 public class D03_ChangeCurrency {
-    Home_Page home;
+    Home_Page home = new Home_Page();
 
     @When("user select “Euro” from currency dropdown list")
     public void user_select_Euro() {
-        home = new Home_Page(Hooks.driver);
         home.currency().click();
         home.currencyEuro().click();
     }

@@ -10,13 +10,11 @@ import org.openqa.selenium.Keys;
 import org.testng.asserts.SoftAssert;
 
 public class D02_Login {
-    Login_Page login;
-    Home_Page home;
+    Login_Page login = new Login_Page();
+    Home_Page home = new Home_Page();
 
     @When("user navigate to login page")
     public void user_navigate_to_login_page() {
-        home = new Home_Page(Hooks.driver);
-        login = new Login_Page(Hooks.driver);
         home.Navigate_to_LoginPage().click();
     }
 
