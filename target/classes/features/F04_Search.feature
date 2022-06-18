@@ -1,11 +1,18 @@
 Feature: F04_Search | users will be able to search for products with different parameters
 
 
-  Scenario: user could search using product name
+ Scenario Outline: user could search using product name
     Given user click on search bar
-    When user search for product like "Nokia"
+    When user search for product like <product>
     And user click on search Button
     Then user could search successfully and go to search page
+
+   Examples:
+     | product |
+     | Nokia |
+     | book |
+     | laptop |
+     | nike |
 
 
   Scenario: user search using SKU

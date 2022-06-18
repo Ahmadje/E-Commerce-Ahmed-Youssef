@@ -6,6 +6,8 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 public class D04_Search {
@@ -17,7 +19,7 @@ public class D04_Search {
         home.searchBar().click();
     }
 
-    @When("user search for product like \"(.*)\"$")
+    @When("user search for product like (.*)$")
     public void user_search_for_product(String search) {
         home.searchBar().sendKeys(search);
     }
@@ -31,13 +33,18 @@ public class D04_Search {
     public void search_successfully() {
         // First Assertion
         SoftAssert soft = new SoftAssert();
-        soft.assertTrue(Hooks.driver.getCurrentUrl().contains("https://demo.nopcommerce.com/search?q=Nokia"), "URL after search");
-        // Second Assertion
-        int size = search.productsList();
-        soft.assertTrue(size > 0,"Search Result size");
-        // Assert All
-        soft.assertAll();
+        int count = Hooks.driver.findElements(By.cssSelector("div[data-productid=\"4\"]")).size();
+        for (int x = 0; x < count; x++) {
+            String text = home.productPrices().getText();
+            soft.assertTrue(text.contains(Hooks.driver.findElement(By.cssSelector("input[class=\"search-text\"]")).getText()));
+            // Second Assertion
+            int size = search.productsList();
+            soft.assertTrue(size > 0, "Search Result size");
+            // Assert All
+            soft.assertAll();
+        }
     }
+
 
     @Then("user could search successfully with SKU")
     public void search_with_sku_successfully() {
