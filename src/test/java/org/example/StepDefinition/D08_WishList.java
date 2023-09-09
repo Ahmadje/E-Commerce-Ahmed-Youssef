@@ -43,7 +43,7 @@ public class D08_WishList {
     @And("user go to wishlist page")
     public void user_go_to_wishlist() throws InterruptedException {
         home.closeB().click();
-        Thread.sleep(500);
+        Thread.sleep(1000);
         home.wishList().click();
     }
 

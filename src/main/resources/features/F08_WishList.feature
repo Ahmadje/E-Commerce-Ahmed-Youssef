@@ -2,7 +2,7 @@ Feature: F08_WishList  |  guest user could add products to wishlist
 
   Background: user login first
     When user navigate to login page
-    And user enter "Ahmed_Youssef@Outlook.com" and "P@ssw0rd"
+    And user enter "Ahmed_Youssef@Live.com" and "P@ssw0rd"
     Then user click on login button
     And user could login successfully and go to home page
 
