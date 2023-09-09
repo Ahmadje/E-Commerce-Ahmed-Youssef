@@ -3,8 +3,8 @@ package org.example.StepDefinition;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.Pages.Category_Page;
-import org.example.Pages.Home_Page;
+import org.example.Runners.Pages.Category_Page;
+import org.example.Runners.Pages.Home_Page;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
@@ -17,7 +17,7 @@ public class D05_HoverCategories {
     public void user_hover_category() throws InterruptedException {
         Actions action = new Actions(Hooks.driver);
         action.moveToElement(home.computers()).perform();
-        action.moveToElement(home.computers()).perform();
+        action.moveToElement(home.desktops()).perform();
 
         subCategoryName = home.desktops().getText().toLowerCase();
 

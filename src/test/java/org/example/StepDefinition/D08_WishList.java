@@ -1,7 +1,7 @@
 package org.example.StepDefinition;
 
-import org.example.Pages.Home_Page;
-import org.example.Pages.Wishlist_Page;
+import org.example.Runners.Pages.Home_Page;
+import org.example.Runners.Pages.Wishlist_Page;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

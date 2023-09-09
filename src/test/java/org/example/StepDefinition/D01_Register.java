@@ -1,11 +1,10 @@
 package org.example.StepDefinition;
 
-import org.example.Pages.Home_Page;
-import org.example.Pages.Register_Page;
+import org.example.Runners.Pages.Home_Page;
+import org.example.Runners.Pages.Register_Page;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.asserts.SoftAssert;
 
@@ -63,7 +62,7 @@ public class D01_Register {
         soft.assertTrue(register.successfulMsg().isDisplayed(), "Successful Message");
         // Second Assertion
         String actual = register.successfulMsg().getCssValue("color");
-        String expected = "rgba(76, 177, 124, 1)";
+        String expected = "rgb(76, 177, 124)";
         soft.assertEquals(actual, expected, "Message color");
         // Assert All
         soft.assertAll();

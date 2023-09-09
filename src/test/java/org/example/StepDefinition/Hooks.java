@@ -2,8 +2,13 @@ package org.example.StepDefinition;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+
 import java.util.concurrent.TimeUnit;
 
 public class Hooks {
@@ -12,11 +17,12 @@ public class Hooks {
     @Before
     public static void openBrowser(){
         //1.bridge between test script and browser
-        String edgePath = System.getProperty("user.dir") + "\\src\\main\\resources\\msedgedriver.exe";
-        System.setProperty("webdriver.edge.driver", edgePath);
+//        String edgePath = System.getProperty("user.dir") + "\\src\\main\\resources\\msedgedriver.exe";
+//        System.setProperty("webdriver.edge.driver", edgePath);
 
         //2.Object
-        driver = new EdgeDriver();
+        WebDriverManager.firefoxdriver().setup();
+        driver = new FirefoxDriver();
 
         //3.Navigate to nopcommerce
         driver.manage().window().maximize();

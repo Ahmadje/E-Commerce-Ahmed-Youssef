@@ -1,13 +1,13 @@
 package org.example.StepDefinition;
 
-import org.example.Pages.Home_Page;
-import org.example.Pages.Search_Page;
+import org.example.Runners.Pages.Home_Page;
+import org.example.Runners.Pages.Search_Page;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
-import org.testng.Assert;
+import org.openqa.selenium.interactions.Action;
 import org.testng.asserts.SoftAssert;
 
 public class D04_Search {
@@ -31,6 +31,7 @@ public class D04_Search {
 
     @Then("user could search successfully and go to search page")
     public void search_successfully() {
+        search.scrollToResults();
         // First Assertion
         SoftAssert soft = new SoftAssert();
         int count = Hooks.driver.findElements(By.cssSelector("div[data-productid=\"4\"]")).size();
@@ -48,6 +49,7 @@ public class D04_Search {
 
     @Then("user could search successfully with SKU")
     public void search_with_sku_successfully() {
+        search.scrollToResults();
         // First Assertion
         SoftAssert soft = new SoftAssert();
         soft.assertTrue(Hooks.driver.getCurrentUrl().contains("https://demo.nopcommerce.com/search?q=AP_MBP_13"), "URL after search");
@@ -60,6 +62,7 @@ public class D04_Search {
 
     @Then("user could not search")
     public void no_products_found() {
+        search.scrollToResults();
         SoftAssert soft = new SoftAssert();
         soft.assertTrue(search.noProducts().isDisplayed(), "No products Message");
     }

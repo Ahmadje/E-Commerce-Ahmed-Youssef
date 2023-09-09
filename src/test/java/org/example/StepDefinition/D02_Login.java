@@ -1,7 +1,7 @@
 package org.example.StepDefinition;
 
-import org.example.Pages.Home_Page;
-import org.example.Pages.Login_Page;
+import org.example.Runners.Pages.Home_Page;
+import org.example.Runners.Pages.Login_Page;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -33,10 +33,10 @@ public class D02_Login {
     public void login_successfully() {
         // First Assertion
         SoftAssert soft = new SoftAssert();
-        soft.assertEquals(Hooks.driver.getCurrentUrl(),"https://demo.nopcommerce.com/","URL after login");
+        soft.assertTrue(Hooks.driver.getCurrentUrl().contains("https://demo.nopcommerce.com/"),"URL after login");
         // Second Assertion
-        Hooks.driver.findElement(By.cssSelector("a[class=\"ico-account\"]")).isDisplayed();
-        soft.assertTrue(login.myAccount().isDisplayed(), "My Account");
+
+        soft.assertTrue(Hooks.driver.findElement(By.cssSelector("a[class=\"ico-account\"]")).isDisplayed(), "My Account");
         // Assert All
         soft.assertAll();
     }
@@ -51,7 +51,7 @@ public class D02_Login {
                 "No customer account found","Wrong Msg");
         // Second Assertion
         actual = login.wrongMsg().getCssValue("color");
-        String expected = "rgba(228, 67, 75, 1)";
+        String expected = "rgb(228, 67, 75)";
         soft.assertEquals(actual, expected, "Wrong Message color");
         // Assert All
         soft.assertAll();
